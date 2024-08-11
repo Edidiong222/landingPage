@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:url(Poppins-Black.ttf) ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(249, 249, 249);
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+nav {
+    width: 100%;
+    height: 15vh;
+
+    justify-content: space-between;
+    padding: 1rem 7rem 1rem 3rem;
+    flex-direction: row;
+    /* border: 1px solid blue; */
+    display: flex;
+}
+
+.headingDocument {
+    height: 20vh;
+
+}
+
+.nav1 {
+    width: 30rem;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.navList {
+    list-style-type: none;
+    width: 20vw;
+    display: flex;
+    /* border: 1px solid; */
+    color: white;
+    padding: 0 1rem;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+header {
+    width: 100vw;
+    background: url(bg-pattern-intro-desktop.svg);
+    background-position-x: -20rem;
+    background-position-y: -67rem;
+    background-size: 170rem;
+    background-repeat: no-repeat;
+    height: 90vh;
+    border-radius: 0 0 0 5rem;
+    background-color: hsl(356, 100%, 66%);
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    width: 14rem;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+.Login:hover{
+    background:white ;
+    cursor: pointer;
+    color: hsl(356, 100%, 66%);
+    transition: 0.4s;
+}
+
+.button2 {
+    display: flex;
+    align-items: center;
+    width: 14rem;
+    justify-content: space-between;
+}
+
+.Login {
+    width: 6.2rem;
+    height: 2.5rem;
+    color: white;
+    border: none;
+    background: transparent;
+    border-radius: 20px;
+}
+.Login a{
+    text-decoration: none;
+    color: white;
+}
+
+.Signup {
+    border-radius: 20px;
+    width: 6.2rem;
+    height: 2.5rem;
+    border: none;
+    color: hsl(356, 100%, 66%);
+    background: white;
+}
+.Signup:hover{
+    background:hsl(356, 82%, 70%) ;
+    border: 1px solid white;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    padding: 4rem;
+    color:#fff;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading h1 {
+    font-size: 4vw;
+    color: white;
+}
+
+.LearnMore {
+    width: 6.2rem;
+    height: 2.5rem;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    background-color: hsl(356, 100%, 66%);
+}
+.LearnMore:hover{
+    background: white;
+    color: hsl(356, 100%, 66%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.Part2 {
+    width: 100%;
+    height: 120vh;
+    background: url(illustration-editor-desktop.svg);
+    background-size: 45rem;
+    /* background: url(bg-pattern-intro-desktop.svg); */
+    display: flex;
+    color: hsl(237, 17%, 21%) ;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position-x: 50rem;
+    
+    background-position-y: 3rem;
+}
+
+.Part2Introducing {
+    width: 45vw;
+}
+.Part2Robust {
+    width: 45vw;
+}
+.Part2-2 {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+}
+.Part2-2 h3{
+    font-size: 2vw;
+}
+.Part2-2 h5{
+    font-size: 1.1vw;
+}
+
+.Part2 .heading2 {
+    font-size:1.5vw;
+}
+
+.Part2cover {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 95vh;
+    padding: 4rem 3rem;
+}
+.Part3{
+    padding: 10vh 15vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    height: 50vh;
+    color: white;
+    background: url(bg-pattern-circles.svg)  hsl(237, 17%, 21%);
+    background-size: 70rem;
+    background-repeat: no-repeat;
+    background-position-y: -100vh;
+    background-position-x: -18vw;
+    border-radius:0 9vw ;
+    position: relative;
+}
+.Part3Skin h2{
+    font-size: 2vw;
+}
+.phones{
+    position: absolute;
+    top:-10vh;
+    left: 10vw;
+   width: 35vw;
+}
+.Part3-2{
+    width: 36vw;
+    font-size:1.5vw;
+}
+.Part3Skin{
+    height: 50vh;
+    width:35vw;
+    text-align: left;
+    } 
+
+.Part4{
+    height: 120vh;
+    background:url(illustration-laptop-desktop.svg) ;
+    width: 100%;
+    background-size: 65vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-repeat: no-repeat;
+    background-position-x: -18.5vw;
+    background-position-y:center ;
+}    
+.Part4-1{
+display: flex;
+margin: 30vh 40vw;
+flex-direction: column;
+width: 39vw;
+height: 60vh;
+padding: 4vw;
+justify-content: space-between;
+}
+.Part4-1 h2{
+    font-size: 5vh;
+
+}
+.Part4-1 h5{
+    font-size:15px;
+
+}
+.Bottom{
+    border-radius: 0 8vw 0 0;
+    width: 100%;
+    height: 53vh;
+    background:hsl(238, 24%, 21%) ;
+    padding: 4vw;
+}
+.Bottom1{
+    display: flex;
+    width: 75vw;
+    color: white;
+    justify-content: space-between;
+   
+}
+.product ul{
+    list-style-type: none;
+}
+.product li:hover{
+    color: hsl(356, 100%, 66%);
+    transition: 0.3S;
+    cursor: pointer;
+    list-style-type: none;
+}
+.company li:hover{
+    color: hsl(356, 100%, 66%);
+    transition: 0.3S;
+    cursor: pointer;
+    list-style-type: none;
+}
+.connect li:hover{
+    color: hsl(356, 100%, 66%);
+    transition: 0.3S;
+    cursor: pointer;
+    list-style-type: none;
+}
+.company ul{
+    list-style-type: none;
+}
+.connect ul{
+    list-style-type: none;
+}
+.lead{
+    font-weight: bold;
+}
